@@ -1,0 +1,2 @@
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\Project\SABOR_E_SAUDE.SISTEMA.UI.SITE\SISTEMA\obj\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\Project\SABOR_E_SAUDE.SISTEMA.UI.SITE\SISTEMA\obj\Debug\SISTEMA.csproj.CoreCompileInputs.cache

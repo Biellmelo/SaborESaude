@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SABOR_E_SAUDE.Models.Models
+namespace SABOR_E_SAUDE.DOMAIN.Models
 {
     [Table("ItensCarrinho")]
     public class Carrinho
@@ -24,10 +24,18 @@ namespace SABOR_E_SAUDE.Models.Models
         //Registro Horario Da Venda
         public DateTime DataVenda { get; set; }
 
+
         // FK PARA ITEM CARRINHO
-        public virtual List<ItemCarrinho> ItemCarrinho { get; set; }
+        public virtual List<ItemCarrinho> ItemCarrinhoID { get; set; }
 
         public virtual Cliente Cliente { get; set; }
+        public virtual ItemCarrinho ItemCarrinhoId { get; set; }
         public Guid ClienteId { get; set; }
+        
+
+
+
+
+
     }
 }

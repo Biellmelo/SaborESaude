@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SABOR_E_SAUDE.Models.Models
+namespace SABOR_E_SAUDE.DOMAIN.Models
 {
+    [Table("Clientes")]
     public class Cliente
     {
         public Cliente()
@@ -18,7 +20,7 @@ namespace SABOR_E_SAUDE.Models.Models
 
 
         //Nome
-        [Required(ErrorMessage = "Favor, precisamos saber qual é o seu nome!.")]
+        [Required(ErrorMessage ="Favor, precisamos saber qual é o seu nome!.")]
         [StringLength(50, MinimumLength = 5)]
         [Display(Name = "* Nome")]
         public string Nome { get; set; }
@@ -28,15 +30,15 @@ namespace SABOR_E_SAUDE.Models.Models
         [Required(ErrorMessage = "CPF na nota é dinheiro de volta, preencha este campo.")]
         [StringLength(11, MinimumLength = 11)]
         [Display(Name = "* CPF:")]
-        [DisplayFormat(DataFormatString = "999.999.999.99")]
+        [DisplayFormat(DataFormatString ="999.999.999.99")]
         public string CPF { get; set; }
 
 
         //E-mail
         [DataType(DataType.EmailAddress)]
-        [Required(ErrorMessage = "Qual é o seu E-mail??")]
+        [Required(ErrorMessage ="Qual é o seu E-mail??")]
         [StringLength(50, MinimumLength = 10)]
-        [Display(Name = "* E-mail:")]
+        [Display(Name ="* E-mail:")]
         public string Email { get; set; }
 
 
@@ -49,7 +51,7 @@ namespace SABOR_E_SAUDE.Models.Models
 
         // Confirmação de Senha
         [DataType(DataType.Password)]
-        [Required(ErrorMessage = "Precisos ter certeza de que você realmente sabe sua senha!")]
+        [Required(ErrorMessage ="Precisos ter certeza de que você realmente sabe sua senha!")]
         [StringLength(20, MinimumLength = 8)]
         [Display(Name = "* Confirmar Senha:")]
         public string ConfirmaSenha { get; set; }
@@ -62,12 +64,31 @@ namespace SABOR_E_SAUDE.Models.Models
 
         //Permissões de Usuario
         public string Permissao { get; set; }
-
-
+        
 
         // REFERENCIAS DE TABELAS
         public virtual List<Endereco> Enderecos { get; set; }
         public virtual List<Carrinho> CarrinhoID { get; set; }
         public virtual List<Comentario> Comentario { get; set; }
+
+
+        public Cliente NovoCliente(Cliente cliente)
+        {
+
+            return cliente;
+
+        }
+
+        public bool ValidaEmail(Cliente cliente)
+        {
+            if (,)
+            {
+
+            }
+
+            return true;
+        }
+
+
     }
 }

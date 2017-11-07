@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{89208E39-F53F-4187-ACD2-EFEA87ABF1F8}</ProjectGuid>
+    <ProjectGuid>{DF8A40E2-E278-4671-8888-B6DB27CC7B64}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SABOR_E_SAUDE.Util</RootNamespace>

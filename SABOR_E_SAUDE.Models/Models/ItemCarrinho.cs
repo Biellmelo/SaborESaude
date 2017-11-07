@@ -6,12 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SABOR_E_SAUDE.Models.Models
+namespace SABOR_E_SAUDE.DOMAIN.Models
 {
     [Table("ItensCarrinho")]
     public class ItemCarrinho
     {
-       
         public ItemCarrinho()
         {
             ItemCarrinhoID = Guid.NewGuid();
@@ -21,7 +20,9 @@ namespace SABOR_E_SAUDE.Models.Models
         [Key]
         public Guid ItemCarrinhoID { get; set; }
 
+
         // FK DE CARRINHO
+        
         public virtual Guid CarrinhoID { get; set; }
 
         // FK DE PRODUTOS
@@ -29,5 +30,8 @@ namespace SABOR_E_SAUDE.Models.Models
 
         //QUANTIDADE DE PRODUTO
         public int Quantidade { get; set; }
+
+
+
     }
 }

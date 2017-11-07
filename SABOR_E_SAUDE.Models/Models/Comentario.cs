@@ -6,22 +6,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SABOR_E_SAUDE.Models.Models
+namespace SABOR_E_SAUDE.DOMAIN.Models
 {
-    [Table("Comentarios")]
     public class Comentario
     {
-        public Comentario()
-        {
-            ComentarioID = Guid.NewGuid();
-        }
+
         [Key]
         public Guid ComentarioID { get; set; }
 
-        [Required(ErrorMessage = "Por favor, digite um comentario.")]
+        [Required(ErrorMessage ="Por favor, digite um comentario.")]
         [StringLength(180)]
         [Column("Comentario", TypeName = "varchar")]
-        public string Comentariotxt { get; set; }
+        public string Comentariotxt{ get; set; }
 
         public Guid ProdutoId { get; set; }
 
