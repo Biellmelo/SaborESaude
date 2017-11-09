@@ -81,10 +81,7 @@ namespace SABOR_E_SAUDE.DOMAIN.Models
 
         public bool ValidaEmail(Cliente cliente)
         {
-            if (,)
-            {
-
-            }
+           
 
             return true;
         }

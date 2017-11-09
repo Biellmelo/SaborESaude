@@ -5,3 +5,9 @@ C:\Users\Aluno\Documents\Visual Studio 2015\Projects\SABOR_E_SAUDE.SISTEMA.UI.SI
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\SABOR_E_SAUDE.SISTEMA.UI.SITE\SABOR_E_SAUDE.Models\obj\Debug\SABOR_E_SAUDE.Models.csprojResolveAssemblyReference.cache
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\SABOR_E_SAUDE.SISTEMA.UI.SITE\SABOR_E_SAUDE.Models\obj\Debug\SABOR_E_SAUDE.Models.dll
 C:\Users\Aluno\Documents\Visual Studio 2015\Projects\SABOR_E_SAUDE.SISTEMA.UI.SITE\SABOR_E_SAUDE.Models\obj\Debug\SABOR_E_SAUDE.Models.pdb
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.Models\obj\Debug\SABOR_E_SAUDE.Models.csprojResolveAssemblyReference.cache
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.Models\obj\Debug\SABOR_E_SAUDE.Models.csproj.CoreCompileInputs.cache
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.Models\obj\Debug\SABOR_E_SAUDE.Models.dll
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.Models\obj\Debug\SABOR_E_SAUDE.Models.pdb
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.Models\bin\Debug\SABOR_E_SAUDE.Models.dll
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.Models\bin\Debug\SABOR_E_SAUDE.Models.pdb

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Sabor & Saúde - Sucos Naturais</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" type="text/css" href="~/Content/EstiloSabor&Saude.css" />
+
+</head>
+<body>
+    <div class="Topo">
+        <ul>
+            <img src="~/Imagens/Padrao/Logo_Black.png" />
+            <li>Inicio</li>
+            <li>Promoções</li>
+            <li>Categorias</li>
+            <div class="DadosUsuario">Olá Gabriel  </div>
+            <div class="Fotousuario"></div>
+        </ul>
+
+    </div>
+    <br />
+    <input type="text" name="PesqBox" class="CaixaPesquisa" />
+    <div>
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Sabor & Saúde. Todos Os Direitos Reservados</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
