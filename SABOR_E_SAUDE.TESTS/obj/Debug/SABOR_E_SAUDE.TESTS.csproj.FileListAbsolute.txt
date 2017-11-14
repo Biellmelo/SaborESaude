@@ -1,0 +1,8 @@
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.TESTS\bin\Debug\SABOR_E_SAUDE.TESTS.dll
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.TESTS\bin\Debug\SABOR_E_SAUDE.TESTS.pdb
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.TESTS\bin\Debug\SABOR_E_SAUDE.Models.dll
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.TESTS\bin\Debug\SABOR_E_SAUDE.Models.pdb
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.TESTS\obj\Debug\SABOR_E_SAUDE.TESTS.csprojResolveAssemblyReference.cache
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.TESTS\obj\Debug\SABOR_E_SAUDE.TESTS.csproj.CoreCompileInputs.cache
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.TESTS\obj\Debug\SABOR_E_SAUDE.TESTS.dll
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SABOR_E_SAUDE.TESTS\obj\Debug\SABOR_E_SAUDE.TESTS.pdb

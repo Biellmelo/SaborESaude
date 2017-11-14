@@ -9,15 +9,28 @@ using System.Threading.Tasks;
 namespace SABOR_E_SAUDE.DOMAIN.Models
 {
 
-    [Table("Administrador")]
+    [Table("Admins")]
     public class Administrador
     {
         public Administrador()
         {
-            AdmId = Guid.NewGuid();
+            AdminId = Guid.NewGuid();
+            Permissao = "ADMIN";
         }
 
         [Key]
-        public Guid AdmId { get; set; }
+        public Guid AdminId { get; set; }
+
+        [StringLength(60, MinimumLength = 5)]
+        [Column(TypeName = "varchar")]
+        [Required]
+        public string Email { get; set; }
+
+        [StringLength(200, MinimumLength = 5)]
+        [Column(TypeName = "varchar")]
+        [Required]
+        public string Senha { get; set; }
+
+        public string Permissao { get; set; }
     }
 }

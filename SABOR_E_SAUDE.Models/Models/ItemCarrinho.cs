@@ -15,22 +15,19 @@ namespace SABOR_E_SAUDE.DOMAIN.Models
         {
             ItemCarrinhoID = Guid.NewGuid();
         }
-
-        // PK DE ITENS CARRINHO.
+    
         [Key]
         public Guid ItemCarrinhoID { get; set; }
 
-
-        // FK DE CARRINHO
-        
-        public virtual Guid CarrinhoID { get; set; }
-
-        // FK DE PRODUTOS
-        public virtual Guid ProdutoId { get; set; }
-
-        //QUANTIDADE DE PRODUTO
         public int Quantidade { get; set; }
 
+        [Required]
+        public Guid CarrinhoID { get; set; }
+        public virtual Carrinho Carrinho { get; set; }
+
+        [Required]
+        public Guid ProdutoId { get; set; }
+        public virtual Produto Produto { get; set; }
 
 
     }

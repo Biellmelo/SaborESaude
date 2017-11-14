@@ -1,0 +1,161 @@
+﻿body {
+    background-image: url(../Imagens/Padrao/Bg_Index.png);
+    background-repeat: no-repeat;
+    background-position-y: -200;
+    background-size: cover;
+    margin: auto;
+}
+
+hr {
+    width: 80%;
+    opacity: 50;
+}
+/*DESKTOP*/
+@media(min-width:1920px) {
+    .PesquisaBox {
+        width: 1052px;
+        height: 90px;
+        border-radius: 30px;
+        box-shadow: 0px 28px 45px 0px rgba(0, 0, 0, 0.3);
+        margin: auto;
+        margin-top: 20px;
+        padding-left: 45px;
+        font-family: Roboto;
+        font-weight: 200;
+        color: #878686;
+        font-size: 40px;
+        text-transform: uppercase;
+        background-color: white;
+    }
+
+        .PesquisaBox placeholder {
+            color: #cacaca;
+            font-size: 40px;
+            text-transform: uppercase;
+        }
+
+    .Slider {
+        width: 100%;
+        height: 490px;
+        background-color: #d9d9d9;
+        margin-top: 130px;
+    }
+
+    .TituloSessao h3 {
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 36px;
+        color: #80a65d;
+        text-align:center;
+        margin-top:70px;
+    }
+    .FotoDiaSemana {
+        width: 272px;
+        height: 272px;
+        background-color: #e0e0e0;
+        box-shadow: 0px 28px 45px 0px rgba(0, 0, 0, 0.3);
+        margin:auto;
+        position:relative;
+    }
+}
+
+
+/*NOTEBOOK*/
+@media(min-width:1366px) {
+    .PesquisaBox {
+        width: 839px;
+        height: 72px;
+        border-radius: 36.33px;
+        box-shadow: 0px 28px 45px 0px rgba(0, 0, 0, 0.3);
+        margin: auto;
+        margin-top: 20px;
+        padding-left: 36px;
+        font-family: Roboto;
+        font-weight: 200;
+        color: #878686;
+        font-size: 31px;
+        text-transform: uppercase;
+        background-color: white;
+    }
+
+        .PesquisaBox placeholder {
+            color: #cacaca;
+            font-size: 31px;
+            text-transform: uppercase;
+        }
+
+    .Slider {
+        width: 100%;
+        height: 356px;
+        background-color: #d9d9d9;
+        margin-top: 100px;
+    }
+
+    .TituloSessao h3 {
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 36px;
+        color: #80a65d;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .FotoDiaSemana {
+        width: 195px;
+        height: 195px;
+        background-color: #e0e0e0;
+        box-shadow: 0px 28px 45px 0px rgba(0, 0, 0, 0.3);
+        margin: auto;
+        position: relative;
+    }
+}
+
+/*TABLE*/
+@media(min-width:768PX) {
+    .PesquisaBox {
+        width: 640px;
+        height: 55px;
+        border-radius: 27.75px;
+        box-shadow: 0px 28px 45px 0px rgba(0, 0, 0, 0.3);
+        margin: auto;
+        margin-top: 20px;
+        padding-left: 27px;
+        font-family: Roboto;
+        font-weight: 200;
+        color: #878686;
+        font-size: 24.4px;
+        text-transform: uppercase;
+        background-color: white;
+        border:none;
+    }
+
+        .PesquisaBox placeholder {
+            color: #cacaca;
+            font-size: 24.4px;
+            text-transform: uppercase;
+        }
+
+    .Slider {
+        width: 100%;
+        height: 252px;
+        background-color: #d9d9d9;
+        margin-top: 100px;
+    }
+
+    .TituloSessao h3 {
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 36px;
+        color: #80a65d;
+        text-align: center;
+        margin-top: 250px;
+    }
+    .FotoDiaSemana {
+        width: 172px;
+        height: 172px;
+        background-color: #e0e0e0;
+        box-shadow: 0px 28px 45px 0px rgba(0, 0, 0, 0.3);
+        margin: auto;
+        position: relative;
+    }
+}

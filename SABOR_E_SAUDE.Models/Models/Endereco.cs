@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace SABOR_E_SAUDE.DOMAIN.Models
 {
-    //[Table("Enderecos")]
+    [Table("Enderecos")]
     public class Endereco
     {
         public Endereco()
@@ -15,7 +16,7 @@ namespace SABOR_E_SAUDE.DOMAIN.Models
             EnderecoId = Guid.NewGuid();
         }
 
-        [Required(ErrorMessage = "Recomendamos hahaha (minimo 8, maximo 10)")]
+        [Required(ErrorMessage = "Recomendamos hahaha")]
         [Display(Name ="CEP")]
         public string Cep { get; set; }
 

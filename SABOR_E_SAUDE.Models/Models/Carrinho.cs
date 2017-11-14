@@ -19,23 +19,28 @@ namespace SABOR_E_SAUDE.DOMAIN.Models
         [Key]
         public Guid CarrinhoID { get; set; }
 
-        public Decimal ValorTotal { get; set; }
+        [DataType(DataType.Date)]
+        [Required]
+        public DateTime DataCadastro { get; set; }
 
-        //Registro Horario Da Venda
-        public DateTime DataVenda { get; set; }
+        [DataType(DataType.Date)]
+        [Required]
+        public DateTime DataDaCompra { get; set; }
 
+        [Required]
+        public int StatusId { get; set; }
 
-        // FK PARA ITEM CARRINHO
-        public virtual List<ItemCarrinho> ItemCarrinhoID { get; set; }
+        [Required]
+        public decimal ValorTotal { get; set; }
 
-        public virtual Cliente Cliente { get; set; }
-        public virtual ItemCarrinho ItemCarrinhoId { get; set; }
+        [Required]
         public Guid ClienteId { get; set; }
-        
+        public virtual Cliente Cliente { get; set; }
 
+        [Required]
+        public Guid EnderecoId { get; set; }
+        public virtual Endereco Endereco { get; set; }
 
-
-
-
+        public virtual List<ItemCarrinho> ItemCarrinho { get; set; }
     }
 }

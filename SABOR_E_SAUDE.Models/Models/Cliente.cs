@@ -14,6 +14,7 @@ namespace SABOR_E_SAUDE.DOMAIN.Models
         public Cliente()
         {
             ClienteId = Guid.NewGuid();
+            Permissao = "CLIENTE";
         }
         [Key]
         public Guid ClienteId { get; set; }
@@ -23,53 +24,54 @@ namespace SABOR_E_SAUDE.DOMAIN.Models
         [Required(ErrorMessage ="Favor, precisamos saber qual é o seu nome!.")]
         [StringLength(50, MinimumLength = 5)]
         [Display(Name = "* Nome")]
+        [Column(TypeName = "varchar")]
         public string Nome { get; set; }
-
-
-        //CPF
-        [Required(ErrorMessage = "CPF na nota é dinheiro de volta, preencha este campo.")]
-        [StringLength(11, MinimumLength = 11)]
-        [Display(Name = "* CPF:")]
-        [DisplayFormat(DataFormatString ="999.999.999.99")]
-        public string CPF { get; set; }
-
 
         //E-mail
         [DataType(DataType.EmailAddress)]
-        [Required(ErrorMessage ="Qual é o seu E-mail??")]
+        [Required(ErrorMessage = "Qual é o seu E-mail??")]
         [StringLength(50, MinimumLength = 10)]
-        [Display(Name ="* E-mail:")]
+        [Display(Name = "* E-mail:")]
+        [Column(TypeName = "varchar")]
         public string Email { get; set; }
 
+        //DATA DE NASCIMENTO
+        [DataType(DataType.Date)]
+        [Required]
+        public DateTime DataNascimento { get; set; }
+
+        //Permissões de Usuario
+        public string Permissao { get; set; }
+
+        [Required]
+        public bool Ativo { get; set; }
+
+        [Required]
+        public bool Excluido { get; set; }
 
         //Senha
         [DataType(DataType.Password)]
         [Required(ErrorMessage = "Recomendamos hahaha (minimo 8, maximo 10)")]
         [StringLength(20, MinimumLength = 8)]
         [Display(Name = "* Senha:")]
+        [Column(TypeName = "varchar")]
         public string Senha { get; set; }
 
-        // Confirmação de Senha
-        [DataType(DataType.Password)]
-        [Required(ErrorMessage ="Precisos ter certeza de que você realmente sabe sua senha!")]
-        [StringLength(20, MinimumLength = 8)]
-        [Display(Name = "* Confirmar Senha:")]
-        public string ConfirmaSenha { get; set; }
-
+        //CPF
+        [Required(ErrorMessage = "CPF na nota é dinheiro de volta, preencha este campo.")]
+        [StringLength(11, MinimumLength = 11)]
+        [Display(Name = "* CPF:")]
+        public string CPF { get; set; }
 
         //Data De Cadastro
         [DataType(DataType.Date)]
+        [Required]
         public DateTime DataCadastro { get; set; }
 
 
-        //Permissões de Usuario
-        public string Permissao { get; set; }
-        
 
         // REFERENCIAS DE TABELAS
         public virtual List<Endereco> Enderecos { get; set; }
-        public virtual List<Carrinho> CarrinhoID { get; set; }
-        public virtual List<Comentario> Comentario { get; set; }
 
 
         public Cliente NovoCliente(Cliente cliente)

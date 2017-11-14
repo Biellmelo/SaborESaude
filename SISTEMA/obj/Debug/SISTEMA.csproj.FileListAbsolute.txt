@@ -103,3 +103,8 @@ C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SIS
 C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\obj\Debug\SISTEMA.csproj.CoreCompileInputs.cache
 C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\obj\Debug\SISTEMA.dll
 C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\obj\Debug\SISTEMA.pdb
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\SABOR_E_SAUDE.DATA.dll
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\EntityFramework.dll
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\SABOR_E_SAUDE.DATA.pdb
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\SABOR_E_SAUDE.DATA.dll.config
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\EntityFramework.xml

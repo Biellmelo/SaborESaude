@@ -21,9 +21,11 @@ namespace SABOR_E_SAUDE.DOMAIN.Models
         [Key]
         public Guid IdPromocao { get; set; }
 
-        public virtual Guid ProdutoId { get; set; }
+        [Required]
+        public Guid ProdutoId { get; set; }
+        public virtual Produto Produto { get; set; }
 
-        public DateTime Data { get; set; }
+        public DateTime DataExpira { get; set; }
 
 
     }

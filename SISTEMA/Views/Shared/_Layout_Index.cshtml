@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <link rel="stylesheet" href="~/Content/EstiloSaboreSaude_Index.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/EstiloSabor&Saude.css" type="text/css" />
+</head>
+<body>
+
+    <div class="Topo">
+        <div class="Logo">
+            <img class="Logo" src="~/Imagens/Padrao/Logo_Black.png" />
+        </div>
+        <ul class="Menu">
+            <li class="Menu">Inicio</li>
+            <li class="Menu">Promoções</li>
+            <li class="Menu">Categorias</li>
+        </ul>
+    </div>
+    
+    <input type="text" class="PesquisaBox" name="search" placeholder="QUAL VAI SER HOJE?" />
+
+   
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
