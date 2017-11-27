@@ -108,3 +108,5 @@ C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SIS
 C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\SABOR_E_SAUDE.DATA.pdb
 C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\SABOR_E_SAUDE.DATA.dll.config
 C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\EntityFramework.xml
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\EntityFramework.SqlServer.dll
+C:\Users\GABRIEL_MELO_SCHWEBE\Documents\Visual Studio 2017\SABOR\SaborESaude\SISTEMA\bin\EntityFramework.SqlServer.xml
